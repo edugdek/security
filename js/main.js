@@ -3,10 +3,10 @@ function unmute(){
     if(vd.muted==true){
       vd.muted = false;
       vd.volume = 0.3;
-      span.innerHTML = "volume_off";   
+      span.innerHTML = "volume_up";   
 
     } else{
         vd.muted = true;
-        span.innerHTML = "volume_up";
+        span.innerHTML = "volume_off";
     }    
 };
